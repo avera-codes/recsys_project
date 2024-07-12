@@ -17,7 +17,7 @@ debugpy @ file:///home/conda/feedstock_root/build_artifacts/debugpy_171937864573
 decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
 exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1704921103267/work
 executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1698579936712/work
-faiss==1.8.0
+faiss==1.7.4
 filelock @ file:///home/conda/feedstock_root/build_artifacts/filelock_1719088281970/work
 fonttools==4.53.1
 fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1719514913127/work
@@ -97,7 +97,7 @@ toolz==0.12.1
 torch @ file:///home/conda/feedstock_root/build_artifacts/libtorch_1718580525958/work
 torchaudio==2.3.1
 torchutils==0.0.4
-torchvision==0.18.1
+torchvision @ file:///home/conda/feedstock_root/build_artifacts/torchvision_1718091083183/work
 tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1717722848697/work
 tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1714854870413/work
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1713535121073/work

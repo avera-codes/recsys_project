@@ -1,5 +1,6 @@
 altair==5.3.0
 aom==3.9.1
+asttokens==2.4.1
 attrs==23.2.0
 beautifulsoup4==4.12.3
 blas==2.122
@@ -17,24 +18,26 @@ click==8.1.7
 colorama==0.4.6
 comm==0.2.2
 contourpy==1.2.1
-cuda-cudart==11.8.89
-cuda-cupti==11.8.87
-cuda-libraries==11.8.0
-cuda-nvrtc==11.8.89
-cuda-nvtx==11.8.86
-cuda-runtime==11.8.0
+cuda-cudart==12.4.127
+cuda-cupti==12.4.127
+cuda-libraries==12.4.0
+cuda-nvrtc==12.4.127
+cuda-nvtx==12.4.127
+cuda-opencl==12.4.127
+cuda-runtime==12.4.0
 cuda-version==11.8
 cudatoolkit==11.8.0
 cudnn==8.9.7.29
 cycler==0.12.1
-dav1d==1.2.1
+dav1d==1.4.3
 debugpy==1.8.2
 decorator==5.1.1
 exceptiongroup==1.2.0
 executing==2.0.1
 expat==2.6.2
-faiss-gpu==1.8.0
-ffmpeg==7.0.1
+faiss==1.7.4
+faiss-gpu==1.7.4
+ffmpeg==2.8.6
 filelock==3.15.4
 font-ttf-dejavu-sans-mono==2.37
 font-ttf-inconsolata==3.000
@@ -53,7 +56,7 @@ gitdb==4.0.11
 gitpython==3.1.43
 gmp==6.3.0
 gmpy2==2.1.5
-gnutls==3.7.9
+gnutls==3.7.6
 graphite2==1.3.13
 h2==4.1.0
 harfbuzz==9.0.0
@@ -83,20 +86,22 @@ lerc==4.0.0
 libabseil==20240116.2
 libasprintf==0.22.5
 libasprintf-devel==0.22.5
-libass==0.17.1
+libass==0.17.3
 libblas==3.9.0
 libcblas==3.9.0
-libcublas==11.11.3.6
-libcufft==10.9.0.58
+libcublas==12.4.2.65
+libcufft==11.2.0.44
 libcufile==1.9.1.3
 libcurand==10.3.5.147
-libcusolver==11.4.1.48
-libcusparse==11.7.5.86
+libcusolver==11.6.0.99
+libcusparse==12.3.0.142
+libdav1d7==1.4.3
 libdeflate==1.20
 libdrm==2.4.122
 libedit==3.1.20191231
 libexpat==2.6.2
-libfaiss==1.8.0
+libfaiss==1.7.4
+libfaiss-avx2==1.7.4
 libffi==3.4.2
 libgcc-ng==14.1.0
 libgettextpo==0.22.5
@@ -105,7 +110,7 @@ libgfortran-ng==14.1.0
 libgfortran5==14.1.0
 libglib==2.80.3
 libgomp==14.1.0
-libhwloc==2.11.0
+libhwloc==2.11.1
 libiconv==1.17
 libidn2==2.3.7
 libjpeg-turbo==3.0.0
@@ -113,9 +118,11 @@ liblapack==3.9.0
 liblapacke==3.9.0
 libmagma==2.7.2
 libmagma_sparse==2.7.2
-libnpp==11.8.0.86
+libnpp==12.2.5.2
 libnsl==2.0.1
-libnvjpeg==11.9.0.86
+libnvfatbin==12.4.127
+libnvjitlink==12.4.99
+libnvjpeg==12.3.1.89
 libopenblas==0.3.27
 libopenvino==2024.2.0
 libopenvino-auto-batch-plugin==2024.2.0
@@ -168,7 +175,7 @@ mpmath==1.3.0
 nccl==2.22.3.1
 ncurses==6.5
 nest-asyncio==1.6.0
-nettle==3.9.1
+nettle==3.8.1
 networkx==3.3
 numpy==1.26.4
 ocl-icd==2.3.2
@@ -176,7 +183,7 @@ openblas==0.3.27
 openh264==2.4.1
 openjpeg==2.5.2
 openssl==3.3.1
-p11-kit==0.24.1
+p11-kit==0.25.3
 packaging==24.1
 pandas==2.2.2
 parso==0.8.4
@@ -184,7 +191,7 @@ pcre2==10.44
 pexpect==4.9.0
 pickleshare==0.7.5
 pillow==10.4.0
-pip==24.0
+pip==24.1.2
 pixman==0.43.2
 platformdirs==4.2.2
 prompt-toolkit==3.0.47
@@ -205,7 +212,7 @@ python-dateutil==2.9.0
 python-tzdata==2024.1
 python_abi==3.11
 pytorch==2.3.1
-pytorch-cuda==11.8
+pytorch-cuda==12.4
 pytorch-mutex==1.0
 pytz==2024.1
 pyyaml==6.0.1
@@ -221,7 +228,7 @@ scikit-learn==1.5.1
 scipy==1.14.0
 sentence-transformers==3.0.1
 sentencepiece==0.2.0
-setuptools==70.2.0
+setuptools==70.3.0
 six==1.16.0
 sleef==3.5.1
 smmap==5.0.1
@@ -295,7 +302,7 @@ debugpy @ file:///home/conda/feedstock_root/build_artifacts/debugpy_171937864573
 decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
 exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1704921103267/work
 executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1698579936712/work
-faiss==1.8.0
+faiss==1.7.4
 filelock @ file:///home/conda/feedstock_root/build_artifacts/filelock_1719088281970/work
 fonttools==4.53.1
 fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1719514913127/work
@@ -375,7 +382,7 @@ toolz==0.12.1
 torch @ file:///home/conda/feedstock_root/build_artifacts/libtorch_1718580525958/work
 torchaudio==2.3.1
 torchutils==0.0.4
-torchvision==0.18.1
+torchvision @ file:///home/conda/feedstock_root/build_artifacts/torchvision_1718091083183/work
 tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1717722848697/work
 tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1714854870413/work
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1713535121073/work
